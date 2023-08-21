@@ -17,3 +17,8 @@ export interface GetServiceType {
   ) => BaseObject;
   getPackageJson: () => Promise<BaseObject>;
 }
+
+export interface RepositoryInfo {
+  access_token: string;
+  repository_name: string;
+}
